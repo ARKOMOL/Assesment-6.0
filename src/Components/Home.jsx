@@ -13,7 +13,7 @@ const Home = () => {
           </div>
           {/* body part  */}
 
-          <div>
+          <div className='display flex'>
             <div className="body-content">
                 <h1>
                     In this 5 day class we wil explore artists Monet, Matisse, Van Gogh,among others and then recreate paintings using crayon and watercolor. Students will have fun learning about the artists & creating their own art inspired by their work.
@@ -37,6 +37,8 @@ const Home = () => {
                 <button className='btn btn-ghost'>
                     See Class Schedule ℹ️🤕
                 </button>
+                <h1> 💗 Save</h1>
+                <h1> 🪒 Share</h1>
             </div>
 
             <div className="body-img">
